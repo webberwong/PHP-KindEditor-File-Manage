@@ -1,0 +1,21 @@
+{
+    "name": "hwl/php-kind-editor-file-manage",
+    "description": "KindEditor编辑器 php 文件/图片 管理类,用于编辑器的在线浏览文件功能",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WilliamWong",
+            "email": "weigewong@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php" : ">= 5.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "Hwl\\KindEditor\\": "src/"
+      }
+    }
+}
